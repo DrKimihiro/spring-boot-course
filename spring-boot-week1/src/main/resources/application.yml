@@ -1,2 +1,15 @@
 server:
   port: 8080
+
+#自定义配置
+my:
+  #心情语录
+  mood:
+    today: 周五
+    content: 想放假
+    author: 学生
+
+  #功能开关
+  feature:
+    helloSwitch: false # true = 开放接口， false = 关闭接口
+    closeMsg: “接口正在维护中，请稍后再试^x^” # 接口关闭提示语
