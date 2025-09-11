@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+## 阿里云OSS配置文件
+spring-boot-config/src/main/resources/aliyun-oss.properties
