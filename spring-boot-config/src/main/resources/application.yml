@@ -8,11 +8,13 @@ team:
   phone: "15651078712"
   age: ${random.int(1,4)}
 
+spring:
+  servlet:
+    multipart:
+        max-file-size: 10MB
+        max-request-size: 100MB
 
 
-
-  spring:
-    servlet:
-      multipart:
-          max-file-size: 10MB
-          max-request-size: 100MB
+custom:
+  qrcode:
+    content: "https://www.baidu.com"
