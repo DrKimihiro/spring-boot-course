@@ -34,3 +34,6 @@ build/
 
 ## 阿里云OSS配置文件
 spring-boot-config/src/main/resources/aliyun-oss.properties
+
+## 邮箱配置文件
+spring-boot-config/src/main/resources/mail.properties
