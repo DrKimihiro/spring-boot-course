@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+package top.cry.config;
+=======
 package top.mqxu.boot.redis.config;
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 
 
 import com.alibaba.fastjson2.JSON;
@@ -13,9 +17,15 @@ import org.springframework.data.redis.serializer.SerializationException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
+<<<<<<< HEAD
+
+/**
+ * @author kimihiro
+=======
 /**
  * @Author: mqxu
  * @Date: 2025/9/24
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
  */
 @Configuration
 public class RedisConfig {
