@@ -25,6 +25,8 @@
         <module>spring-boot-week1</module>
         <module>spring-boot-config</module>
         <module>spring-boot-mp</module>
+        <module>spring-boot-filter-interceptor</module>
+        <module>spring-boot-redis</module>
     </modules>
     <scm>
         <connection/>
