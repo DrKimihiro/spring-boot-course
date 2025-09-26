@@ -1,5 +1,6 @@
 package top.cry.handler;
 
+<<<<<<< HEAD
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindException;
@@ -38,4 +39,7 @@ public class GlobalExceptionHandler {
         log.error(ex.getMessage(), ex);
         return Result.error(ErrorCode.INTERNAL_SERVER_ERROR);
     }
+=======
+public class GlobalExceptionHandler {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

@@ -11,6 +11,7 @@
 
     <artifactId>spring-boot-redis</artifactId>
 
+<<<<<<< HEAD
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -58,4 +59,12 @@
         </dependency>
 
     </dependencies>
+=======
+    <properties>
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 </project>

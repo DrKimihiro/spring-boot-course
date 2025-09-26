@@ -1,5 +1,6 @@
 package top.cry.exception;
 
+<<<<<<< HEAD
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import top.cry.enums.ErrorCode;
@@ -35,4 +36,7 @@ public class ServerException extends RuntimeException {
         this.code = ErrorCode.INTERNAL_SERVER_ERROR.getCode();
         this.msg = msg;
     }
+=======
+public class ServerException {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

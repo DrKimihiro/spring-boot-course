@@ -1,5 +1,6 @@
 package top.cry.enums;
 
+<<<<<<< HEAD
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -19,4 +20,7 @@ public enum ErrorCode {
     public String getMsg() {
         return message;
     }
+=======
+public enum ErrorCode {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

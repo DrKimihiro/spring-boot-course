@@ -1,5 +1,6 @@
 package top.cry.controller;
 
+<<<<<<< HEAD
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,4 +25,7 @@ public class LoginController {
         LoginResponse loginResponse = loginService.login(loginRequest);
         return Result.ok(loginResponse);
     }
+=======
+public class LoginController {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

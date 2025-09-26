@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package top.cry.entity;
 
 import jakarta.annotation.Resource;
@@ -25,4 +26,9 @@ class StudentTest {
         redisTemplate.opsForValue().set("student",student);
     }
 
+=======
+import static org.junit.jupiter.api.Assertions.*;
+class StudentTest {
+  
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

@@ -1,5 +1,6 @@
 package top.cry.config;
 
+<<<<<<< HEAD
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
@@ -35,4 +36,7 @@ public class CorsConfig implements WebMvcConfigurer {
         source.registerCorsConfiguration("/**", configuration);
         return source;
     }
+=======
+public class CorsConfig {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }
