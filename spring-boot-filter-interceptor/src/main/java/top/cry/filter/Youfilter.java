@@ -1,4 +1,4 @@
-package top.cry.boot.filter_interceptor.filter;
+package top.cry.filter;
 
 import jakarta.servlet.*;
 import lombok.extern.slf4j.Slf4j;
@@ -6,11 +6,11 @@ import lombok.extern.slf4j.Slf4j;
 import java.io.IOException;
 
 /**
- * @author kimihiro
+ * @author 小c
  */
 @Slf4j
 
-public class YourFilter implements Filter {
+public class Youfilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         log.info("YouFilter,初始化");
@@ -22,6 +22,7 @@ public class YourFilter implements Filter {
         filterChain.doFilter(servletRequest, servletResponse);
         log.info("YouFilter,在请求接口之后的执行逻辑");
     }
+
     @Override
     public void destroy() {
         log.info("YouFilter,销毁了");
