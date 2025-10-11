@@ -1,5 +1,6 @@
 package top.cry.entity;
 
+<<<<<<< HEAD
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,4 +21,7 @@ public class LoginResponse {
         this.phone = phone;
         this.message = "登录成功";
     }
+=======
+public class LoginResponse {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

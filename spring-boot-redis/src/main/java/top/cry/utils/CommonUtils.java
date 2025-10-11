@@ -1,5 +1,6 @@
 package top.cry.utils;
 
+<<<<<<< HEAD
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -28,4 +29,7 @@ public class CommonUtils {
     public static int generateCode() {
         return ThreadLocalRandom.current().nextInt(1000, 9999);
     }
+=======
+public class CommonUtils {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

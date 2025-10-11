@@ -1,5 +1,6 @@
 package top.cry.entity;
 
+<<<<<<< HEAD
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -24,4 +25,7 @@ public class Student implements Serializable {
     private Address address;
 
 
+=======
+public class Student {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

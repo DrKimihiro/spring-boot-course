@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package top.cry;
 
 import jakarta.annotation.Resource;
@@ -20,4 +21,9 @@ class RedisApplicationTest {
         stringRedisTemplate.opsForValue().set("key","123", 16, TimeUnit.SECONDS);
     }
 
+=======
+import static org.junit.jupiter.api.Assertions.*;
+class RedisApplicationTest {
+  
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

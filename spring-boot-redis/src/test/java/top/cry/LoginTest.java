@@ -1,5 +1,6 @@
 package top.cry;
 
+<<<<<<< HEAD
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -21,4 +22,7 @@ public class LoginTest {
         log.info("     \"code\": \"123456\"");
         log.info("   }");
     }
+=======
+public class LoginTest {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

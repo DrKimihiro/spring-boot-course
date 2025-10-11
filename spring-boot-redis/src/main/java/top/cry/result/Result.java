@@ -1,5 +1,6 @@
 package top.cry.result;
 
+<<<<<<< HEAD
 import lombok.Data;
 import top.cry.enums.ErrorCode;
 
@@ -42,4 +43,7 @@ public class Result<T> {
         result.setMsg(msg);
         return result;
     }
+=======
+public class Result {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }

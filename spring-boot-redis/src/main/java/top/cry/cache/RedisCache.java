@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package top.cry.cache;
+=======
+package top.mqxu.boot.redis.cache;
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 
 
 import jakarta.annotation.Resource;
@@ -10,9 +14,15 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+<<<<<<< HEAD
 
 /**
  * @author kimihiro
+=======
+/**
+ * @Author: mqxu
+ * @Date: 2025/9/24
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
  */
 @Component
 public class RedisCache {

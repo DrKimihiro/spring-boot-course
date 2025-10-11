@@ -1,5 +1,6 @@
 package top.cry.service.impl;
 
+<<<<<<< HEAD
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -65,4 +66,7 @@ public class LoginServiceImpl implements LoginService {
     private String generateToken(String phone) {
         return UUID.randomUUID().toString().replace("-", "") + phone.hashCode();
     }
+=======
+public class LoginServiceImpl {
+>>>>>>> c395785a3c535827df18c85d05fc08f3d128dd11
 }
