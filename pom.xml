@@ -27,6 +27,7 @@
         <module>spring-boot-mp</module>
         <module>spring-boot-filter-interceptor</module>
         <module>spring-boot-redis</module>
+        <module>spring-boot-schedule</module>
     </modules>
     <scm>
         <connection/>
