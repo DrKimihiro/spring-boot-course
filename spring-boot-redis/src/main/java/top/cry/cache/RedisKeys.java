@@ -1,9 +1,13 @@
-package top.mqxu.boot.redis.cache;
+
+package top.cry.cache;
+
 
 /**
- * @Author: mqxu
- * @Date: 2025/9/24
+ * @author kimihiro
+=======
+package top.mqxu.boot.redis.cache;
  */
+
 public class RedisKeys {
 
     /**

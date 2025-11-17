@@ -1,4 +1,5 @@
-package top.mqxu.boot.redis.cache;
+
+package top.cry.cache;
 
 
 import jakarta.annotation.Resource;
@@ -10,9 +11,12 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+
+
 /**
- * @Author: mqxu
- * @Date: 2025/9/24
+ * @author kimihiro
+=======
+
  */
 @Component
 public class RedisCache {
